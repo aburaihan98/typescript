@@ -1,7 +1,15 @@
 "use strict";
 // <T>, <B>
 // <T, B>
-function getting(a) {
-    console.log(a);
+function getting(a, b) {
+    console.log(a, b);
 }
-getting("a");
+getting("a", "b");
+class MyClass1 {
+    constructor() {
+        this.value = "a";
+    }
+}
+// class MyClass2 implements GenericInterface<number> {
+//   value: number = 1;
+// }
