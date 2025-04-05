@@ -1,4 +1,4 @@
 "use strict";
-let str = "Allah is our rob";
-let index = str.indexOf("i");
-let index1 = str.indexOf("i");
+let myRob = "Allah is our rob";
+let indexOne = str.indexOf("i");
+let indexTwo = str.indexOf("i");
