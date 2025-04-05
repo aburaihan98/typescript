@@ -10,6 +10,8 @@ class MyClass1 {
         this.value = "a";
     }
 }
-// class MyClass2 implements GenericInterface<number> {
-//   value: number = 1;
-// }
+class MyClass2 {
+    constructor() {
+        this.value = 1;
+    }
+}

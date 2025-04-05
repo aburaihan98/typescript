@@ -14,6 +14,6 @@ class MyClass1 implements GenericInterface<string> {
   value: string = "a";
 }
 
-// class MyClass2 implements GenericInterface<number> {
-//   value: number = 1;
-// }
+class MyClass2 implements GenericInterface<number> {
+  value: number = 1;
+}
